@@ -11,7 +11,7 @@ from django.db import models, DEFAULT_DB_ALIAS
 from django.db.models import QuerySet, Q
 from django.utils import formats, timezone
 from django.utils.encoding import python_2_unicode_compatible, smart_text
-from django.utils.six import iteritems, integer_types
+from six import iteritems, integer_types
 from django.utils.translation import ugettext_lazy as _
 
 from jsonfield.fields import JSONField
